@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="45"
+   height="45"
+   version="1.1"
+   id="svg4"
+   sodipodi:docname="icon_linkedin.svg"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs8">
+    <linearGradient
+       id="PSgrad_0"
+       x1="0.156"
+       x2="0.156"
+       y1="45.030998"
+       y2="0"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-46.216086,2.6622356)">
+      <stop
+         offset="0%"
+         stop-color="rgb(227,82,112)"
+         stop-opacity="1"
+         id="stop2" />
+      <stop
+         offset="100%"
+         stop-color="rgb(231,119,158)"
+         stop-opacity="1"
+         id="stop4" />
+    </linearGradient>
+  </defs>
+  <sodipodi:namedview
+     id="namedview6"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:zoom="7.3477618"
+     inkscape:cx="37.630507"
+     inkscape:cy="24.565304"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     inkscape:window-x="-8"
+     inkscape:window-y="672"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg4" />
+  <path
+     fill-rule="evenodd"
+     fill="#36323f"
+     d="M 7.9944927,0 H 37.005507 C 41.421465,0 45,3.5795341 45,7.9944927 V 37.005507 C 45,41.420466 41.421465,45 37.005507,45 H 7.9944927 C 3.5795341,45 0,41.420466 0,37.005507 V 7.9944927 C 0,3.5795341 3.5795341,0 7.9944927,0 Z"
+     id="path2"
+     style="stroke-width:0.999312" />
+  <text
+     xml:space="preserve"
+     style="font-size:28px;line-height:1.25;font-family:sans-serif;word-spacing:0px;fill:#686868;fill-opacity:1"
+     x="11.118164"
+     y="31.002514"
+     id="text15532"><tspan
+       sodipodi:role="line"
+       id="tspan15530"
+       x="11.118164"
+       y="31.002514"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:28px;font-family:'Century Gothic';-inkscape-font-specification:'Century Gothic Bold';fill:#686868;fill-opacity:1">in</tspan></text>
+</svg>

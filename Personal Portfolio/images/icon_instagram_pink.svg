@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="45.031002"
+   height="45.030998"
+   version="1.1"
+   id="svg11"
+   sodipodi:docname="icon_instagram_pink.svg"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview13"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:zoom="7.1447133"
+     inkscape:cx="29.952217"
+     inkscape:cy="17.005581"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     inkscape:window-x="-8"
+     inkscape:window-y="672"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg11" />
+  <defs
+     id="defs7">
+    <linearGradient
+       id="PSgrad_0"
+       x1="0.156"
+       x2="0.156"
+       y1="45.030998"
+       y2="0"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-0.156)">
+      <stop
+         offset="0%"
+         stop-color="rgb(227,82,112)"
+         stop-opacity="1"
+         id="stop2" />
+      <stop
+         offset="100%"
+         stop-color="rgb(231,119,158)"
+         stop-opacity="1"
+         id="stop4" />
+    </linearGradient>
+  </defs>
+  <path
+     fill-rule="evenodd"
+     fill="url(#PSgrad_0)"
+     d="M 8.0000011,0 H 37.031001 c 4.419,0 8,3.5819999 8,7.9999999 V 37.031 c 0,4.418 -3.581,8 -8,8 H 8.0000011 C 3.582001,45.031 0,41.449 0,37.031 V 7.9999999 C 0,3.5819999 3.582001,0 8.0000011,0 Z"
+     id="path9"
+     style="fill:url(#PSgrad_0)" />
+  <g
+     id="g12710"
+     transform="translate(-45.226896,-3.5177354)">
+    <g
+       id="g11453">
+      <g
+         id="g828"
+         transform="translate(45.294652,4.2385442)"
+         style="fill:#e56385;fill-opacity:1;stroke:#ffffff">
+        <rect
+           style="fill:#e56385;fill-opacity:1;stroke:#ffffff;stroke-width:4.75025;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10.3;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke markers fill"
+           id="rect67396-2"
+           width="18.546875"
+           height="18.546875"
+           x="13.174307"
+           y="12.521254"
+           ry="4.2252088" />
+        <circle
+           style="fill:#e56385;fill-opacity:1;stroke:#ffffff;stroke-width:3.69203;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10.3;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke markers fill"
+           id="path67726-5"
+           cx="22.447744"
+           cy="21.794691"
+           r="3.8644247" />
+      </g>
+    </g>
+    <circle
+       style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:2.66666;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10.3;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke markers fill"
+       id="path67830-2"
+       cx="73.25399"
+       cy="19.753471"
+       r="1.6331505" />
+  </g>
+</svg>

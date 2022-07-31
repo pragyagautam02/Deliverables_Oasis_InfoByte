@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/3202dbdfe0.js" crossorigin="anonymous"></script>
+    <title>Portfolio Pragya Gautam</title>
+
+    <style>
+        .unordered {
+            margin-left: 40px;
+        }
+
+        .ordered {
+            margin-left: 35px;
+        }
+
+        /* The browser window */
+        .container {
+            margin-top: 50px;
+            border: 3px solid #f1f1f1;
+            border-top-left-radius: 4px;
+            border-top-right-radius: 4px;
+        }
+
+        /* Container for columns and the top "toolbar" */
+        .row {
+            padding: 10px;
+            background: linear-gradient(to right, rgb(226, 82, 113), rgb(232, 118, 157));
+            border-radius: 15px 15px 0 0;
+
+        }
+
+        /* Create three unequal columns that floats next to each other */
+        .column {
+            float: left;
+        }
+
+        .left {
+            width: 15%;
+        }
+
+        .right {
+            width: 10%;
+        }
+
+        .middle {
+            width: 75%;
+        }
+
+        /* Clear floats after the columns */
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        /* Three dots */
+        .dot {
+            margin-top: 4px;
+            height: 12px;
+            width: 12px;
+            background-color: #bbb;
+            border-radius: 50%;
+            display: inline-block;
+        }
+
+        /* Style the input field */
+        input[type=text] {
+            width: 100%;
+            border-radius: 3px;
+            border: none;
+            background-color: white;
+            margin-top: -8px;
+            height: 25px;
+            color: #666;
+            padding: 5px;
+        }
+
+        /* Three bars (hamburger menu) */
+        .bar {
+            width: 17px;
+            height: 3px;
+            background-color: #aaa;
+            margin: 3px 0;
+            display: block;
+        }
+
+        /* Page content */
+        .content {
+            padding: 10px;
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <div class="header">
+        <p class="header__logo">PG</p>
+        <ul class="header__btn-container">
+            <li class="header__li"><a class="header__btn" href="#proj">Projects</a></li>
+            <li class="header__li"><a class="header__btn" href="#about">About me</a></li>
+            <li class="header__li"><a class="header__btn" href="#cont">Contact</a></li>
+        </ul>
+        <ul class="header__icons-container">
+            <li class="header__li">
+                <a href="https://pl-pl.facebook.com/" target="_blank">
+                    <img class="header__icon" src="./images/facebook.png" alt="facebook">
+                </a>
+            </li>
+            <li class="header__li">
+                <a href="https://github.com/pragyagautam02" target="_blank">
+                    <img width="25px" height="25px" class="header__icon" src="./images/gray-github-icon-813539.png"
+                        alt="instagram">
+                </a>
+            </li>
+            <li class="header__li">
+                <a href="https://www.linkedin.com/in/pragyagautam0208/" target="_blank">
+                    <img class="header__icon" src="./images/in.png" alt="in">
+                </a>
+            </li>
+        </ul>
+    </div>
+    <hr class="headerUnderline">
+    <div class="home">
+        <div class="home__left">
+            <p class="home__first-line">I'm</p>
+            <h2 class="home__second-line">Junior Front-end developer <span
+                    class="home__second-line home__second-line--pink">&</span> Programer</h2>
+            <h1 class="home__third-line">Pragya Gautam</h1>
+            <ul class="home__btn-container">
+                <li><a class="home__btn" href="#proj">My projects</a></li>
+                <li><a class="home__btn" href="Pragya Gautam.pdf">Get Resume</a></li>
+            </ul>
+        </div>
+        <div class="home__right">
+            <div class="home__frame-shadow">
+                <div class="home__photo-frame">
+                    <img class="home__photo" src="./images/P_6.png" alt="photo">
+
+                </div>
+            </div>
+        </div>
+        <img class="home__object home__object--1" src="./images/obiekt1.png" alt="graphic">
+        <img class="home__object home__object--2" src="./images/obiekt2.png" alt="graphic">
+        <img class="home__object home__object--3" src="./images/obiekt3.png" alt="graphic">
+        <img class="home__object home__object--4" src="./images/obiekt4.png" alt="graphic">
+        <img class="home__object home__object--5" src="./images/obiekt5.png" alt="graphic">
+    </div>
+    <div class="about" id="about">
+        <div class="about__window">
+            <div class="about__window-bar">
+                <div class="about__button-wrapper">
+                    <div class="about__bar-btn about__bar-btn--red"></div>
+                    <div class="about__bar-btn about__bar-btn--yellow"></div>
+                    <div class="about__bar-btn about__bar-btn--green"></div>
+                </div>
+                <p class="about__bar-text">//About</p>
+            </div>
+            <h3 class="about__heading">// <span class="about__heading about__heading--pink">About</span></h3>
+            <div class="about__content">
+                <div class="about__content-me">
+                    <p class="about__second-heading">&lt/<span
+                            class="about__second-heading about__second-heading--pink">Me</span>&gt</p>
+                    <p class="about__second-heading">{</p>
+                    <div class="about__me-text-wrapper">
+
+                        <p style="color: #5a5959;" class="about__me-text">
+                            Hii folks! I am Pragya Gautam . I'm currently pursuing Bachelor's in Information Technology.
+                            Since last few years i've been working with Data Structures , Web development and Python
+                            programming and gradually developed a huge interest in this, having spent my last summer as
+                            an intern in NEO Foundation I have worked with several people in the field of web
+                            development. </p>
+                        <br>
+                        <p style="color: #5a5959;" class="about__me-text">
+                            In addition to that I have worked on several projects such as Tradiction : A stock price
+                            prediction web App that uses machine learning to predict stock prices and CoEquipe : (Covid
+                            Equipment Solution) An e-commerce web App which lets customers to search and filter products
+                            and several others. Through all of my work experience working with
+                            different technologies I have developed robust problem solving skills and good understanding
+                            of software development.
+                        </p>
+                        <p style="margin-bottom: 7px; margin-top: 10px; margin-left: 0%;" class="about__second-heading">
+                            }</p>
+                    </div>
+
+                </div>
+                <div class="about__content-skills">
+                    <p class="about__second-heading">&lt/<span
+                            class="about__second-heading about__second-heading--pink">Skills</span>&gt</p>
+                    <div class="about__skills-wrapper">
+
+                        <div class="about__bar-wrapper">
+                            <div class="about__skills-bar">
+                                <div class="about__skills-bar about__skills-bar--pink about__skills-bar--html">Python
+                                </div>
+                            </div>
+                            <p class="about__bar-percentages">90%</p>
+                        </div>
+
+                        <div class="about__bar-wrapper">
+                            <div class="about__skills-bar">
+                                <div class="about__skills-bar about__skills-bar--pink about__skills-bar--css">Data
+                                    Structure & Algo</div>
+                            </div>
+                            <p class="about__bar-percentages">85
+                                %</p>
+                        </div>
+
+                        <div class="about__bar-wrapper">
+                            <div class="about__skills-bar">
+                                <div class="about__skills-bar about__skills-bar--pink about__skills-bar--js">HTML5
+                                </div>
+                            </div>
+                            <p class="about__bar-percentages">80%</p>
+                        </div>
+
+                        <div class="about__bar-wrapper">
+                            <div class="about__skills-bar">
+                                <div class="about__skills-bar about__skills-bar--pink about__skills-bar--react">CSS
+                                </div>
+                            </div>
+                            <p class="about__bar-percentages">80%</p>
+                        </div>
+
+                        <div class="about__bar-wrapper">
+                            <div class="about__skills-bar">
+                                <div class="about__skills-bar about__skills-bar--pink about__skills-bar--git">JavaScript
+                                </div>
+                            </div>
+                            <p class="about__bar-percentages">60%</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img class="about__background" src="./images/bg.svg" alt="background">
+        <img class="about__background2" src="./images/bg2.svg" alt="background">
+    </div>
+    <div class="projects" id="proj">
+        <div class="projects_main-container">
+            <div class="projects__heading-wrapper">
+                <p class="projects__heading-text">// <span
+                        class="projects__heading-text projects__heading-text--white">Projects</span></p>
+            </div>
+
+
+            <div class="container">
+                <div class="row">
+                    <div class="column left">
+                        <span class="dot" style="background:#ED594A;"></span>
+                        <span class="dot" style="background:#FDD800;"></span>
+                        <span class="dot" style="background:#5AC05A;"></span>
+                    </div>
+                    <div class="column middle">
+                        <input type="text" value="https://github.com/pragyagautam02/Tradiction">
+                    </div>
+                    <div class="column right">
+                        <div style="float:right">
+                            <span class="bar"></span>
+                            <span class="bar"></span>
+                            <span class="bar"></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="content">
+                    <h3>Tradiction</h3>
+                    <h5>STOCK PRICE PREDICTION using Machine Learning</h5>
+                    <br>
+                    <ul style="color: #565656;" class="unordered">
+                        <li>Predicting how the stock market will perform is one of the most difficult things to do.
+                            There are so many factors involved in the prediction – physical factors vs. psychological,
+                            rational and irrational behavior, etc.</li>
+                        <li>With the help of Machine Learning , we are going to predict the stock prices , machine
+                            learning techniques have the potential to unearth patterns and insights we didn’t see
+                            before, and these can be used to make unerringly accurate predictions.</li>
+
+                        <li>LSTMs work in a three-step process.
+                        </li>
+                        <ol class="ordered" type="1">
+                            <li>The first step in LSTM is to decide which information to be omitted from the cell in
+                                that particular time step. It is decided with the help of a sigmoid function.</li>
+                            <li>There are two functions in the second layer. The first is the sigmoid function, and the
+                                second is the tanh function. </li>
+                            <li>The third step is to decide what will be the final output. First, you need to run a
+                                sigmoid layer which determines what parts of the cell state make it to the output.</li>
+                        </ol>
+                        <li>After implementing the above methodology the final graph will look like below where actual
+                            value and predicted value can be seen in the red and orange color respectively.</li>
+
+                    </ul>
+                </div>
+            </div>
+
+            <div class="projects__bar">
+                <div style="color: #000000;" class="projects__bar-btn">Python</div>
+                <div style="color: #000000;" class="projects__bar-btn">Machine Learning</div>
+                <div style="color: #000000;" class="projects__bar-btn">LSTM</div>
+            </div>
+
+            <div class="projects__windows">
+                <a class="projects__window" href="#"><img src="./images/T.png" width="370" height="204"></a>
+                <a class="projects__window" href="#"><img style="margin-top: 10px;" src="./images/Tradiction_1.png"
+                        width="370" height="180"></a>
+            </div>
+
+            <div class="container">
+                <div class="row">
+                    <div class="column left">
+                        <span class="dot" style="background:#ED594A;"></span>
+                        <span class="dot" style="background:#FDD800;"></span>
+                        <span class="dot" style="background:#5AC05A;"></span>
+                    </div>
+                    <div class="column middle">
+                        <input type="text"
+                            value="https://github.com/pragyagautam02/CoEquip-A-Covid-Equipment-Solution-Website-">
+                    </div>
+                    <div class="column right">
+                        <div style="float:right">
+                            <span class="bar"></span>
+                            <span class="bar"></span>
+                            <span class="bar"></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="content">
+                    <h3>CoEquip</h3>
+                    <h5>A COVID EQUIPMENT SOLUTION - Web application </h5>
+                    <br>
+                    <ul style="color: #565656;" class="unordered">
+                        <li>A Covid equipment solution is a Web application where customer can search and filter
+                            products . The project is a full-fledged website made with HTML5, CSS3, and JavaScript.</li>
+                        <li>All healthcare services can be availed from buying products to using services.</li>
+                        <li>Customers can checkout and can see the payment window and order confirmation window, it has
+                            dedicated pages designed for every task.</li>
+                    </ul>
+
+                </div>
+            </div>
+
+            <div class="projects__bar">
+                <div style="color: #000000;" class="projects__bar-btn">HTML</div>
+                <div style="color: #000000;" class="projects__bar-btn">CSS</div>
+                <div style="color: #000000;" class="projects__bar-btn">JavaScript</div>
+            </div>
+            <div class="projects__windows">
+                <a class="projects__window"
+                    href="file:///C:/Users/91638/Desktop/CoEquip%20-%20A%20Covid%20Equipment%20Solution%20Website/product.html"><img
+                        style="margin-top: 10px;" src="./images/Coequip_1.png" width="370" height="180"></a>
+                <a class="projects__window"
+                    href="file:///C:/Users/91638/Desktop/CoEquip%20-%20A%20Covid%20Equipment%20Solution%20Website/category.html"><img
+                        style="margin-top: 10px;" src="./images/Coequip_2.png" width="370" height="180"></a>
+                <a class="projects__window"
+                    href="file:///C:/Users/91638/Desktop/CoEquip%20-%20A%20Covid%20Equipment%20Solution%20Website/cart.html"><img
+                        style="margin-top: 10px;" src="./images/Coequip_3.png" width="370" height="180"></a>
+                <a class="projects__window"
+                    href="file:///C:/Users/91638/Desktop/CoEquip%20-%20A%20Covid%20Equipment%20Solution%20Website/order_confirmation.html"><img
+                        style="margin-top: 10px;" src="./images/Coequip_4.png" width="370" height="180"></a>
+
+            </div>
+        </div>
+    </div>
+    <div class="contact" id="cont">
+        <div class="contact__heading-wrapper">
+            <img class="contact__background3" src="./images/end.svg" alt="background">
+            <p class="contact__heading">// <span class="contact__heading contact__heading--pink">Contact</span></p>
+        </div>
+        <form class="contact__form">
+            <input class="contact__input" type="text" name="name" placeholder="Name:">
+            <input class="contact__input" id="fname" type="text" placeholder="E-mail:">
+            <textarea class="contact__subject" id="subject" name="subject" cols="60" rows="6"
+                placeholder="Type your message..."></textarea>
+            <input class="contact__submit" type="submit" value="Send >">
+        </form>
+    </div>
+    <div class="footer">
+        <div class="footer__object"></div>
+        <div class="footer__scroll-back"></div>
+        <div class="footer__icons">
+            <a href="https://pl-pl.facebook.com/" target="_blank">
+                <div class="footer__icon footer__icon--fb"></div>
+            </a>
+            <a href="https://github.com/pragyagautam02" target="_blank">
+                <img width="40px" height="40px" class="header__icon" src="./images/gray-github-icon-813539.png"
+                    alt="instagram">
+            </a>
+            <a href="https://www.linkedin.com/in/pragyagautam0208/" target="_blank">
+                <div class="footer__icon footer__icon--linkedin"></div>
+            </a>
+        </div>
+        <p class="footer__logo">PG</p>
+        <p class="footer__signature">Pragya Gautam 2022</p>
+    </div>
+
+    <script src="js.js"></script>
+</body>
+
+</html>

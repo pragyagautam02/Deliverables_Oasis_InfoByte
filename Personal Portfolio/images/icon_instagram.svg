@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="45.031002"
+   height="45.031002"
+   version="1.1"
+   id="svg4"
+   sodipodi:docname="icon_instagram.svg"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs8">
+    <rect
+       x="51.852524"
+       y="49.674992"
+       width="61.651428"
+       height="55.118824"
+       id="rect64804" />
+  </defs>
+  <sodipodi:namedview
+     id="namedview6"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:zoom="7.3477618"
+     inkscape:cx="15.106641"
+     inkscape:cy="24.429208"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     inkscape:window-x="-8"
+     inkscape:window-y="672"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg4" />
+  <text
+     xml:space="preserve"
+     id="text64802"
+     style="font-size:32px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect64804)"
+     transform="translate(-5.9381319,0.13609631)" />
+  <g
+     id="g842"
+     transform="translate(1.4725761e-6,0.13609631)">
+    <path
+       fill-rule="evenodd"
+       fill="#36323f"
+       d="M 7.9999986,-0.13609631 H 37.030999 c 4.419,0 8,3.58200001 8,8.00000001 V 36.894904 c 0,4.418 -3.581,8 -8,8 H 7.9999986 c -4.4180001,0 -8.0000000725761,-3.582 -8.0000000725761,-8 V 7.8639037 c 0,-4.418 3.5819999725761,-8.00000001 8.0000000725761,-8.00000001 z"
+       id="path2" />
+    <g
+       id="g834"
+       transform="translate(0.06775439,0.58471276)">
+      <g
+         id="g828">
+        <rect
+           style="fill:#36323f;fill-opacity:1;stroke:#686868;stroke-width:4.75025;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10.3;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke markers fill"
+           id="rect67396"
+           width="18.546875"
+           height="18.546875"
+           x="13.174307"
+           y="12.521254"
+           ry="4.2252088" />
+        <circle
+           style="fill:#36323f;fill-opacity:1;stroke:#686868;stroke-width:3.69203;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10.3;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke markers fill"
+           id="path67726"
+           cx="22.447744"
+           cy="21.794691"
+           r="3.8644247" />
+      </g>
+      <circle
+         style="fill:#686868;fill-opacity:1;stroke:none;stroke-width:2.66666;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10.3;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke markers fill"
+         id="path67830"
+         cx="27.959335"
+         cy="15.514928"
+         r="1.6331505" />
+    </g>
+  </g>
+</svg>
