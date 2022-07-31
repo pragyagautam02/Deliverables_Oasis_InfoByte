@@ -1,23 +1,7 @@
 # Portfolio
-A personal web page to showcase my work
-___
 
-## [Live Site](https://katarzynawis.github.io/portfolio/)
+This repository to create a personal portfolio with the basic skills in CSS and HTML. This is again, one of the most common projects on web development for beginners. In a personal portfolio, we have to show a wide range of samples and skills and add resume.
 
-## Overview
+Task Name : Personal Portfolio
 
-A project which shows what I have learned during an online course from [*Ease-code.io*](https://easy-code.io/).
-
-## Built With
-
-* HTML5
-* CSS3
-* JAVASCRIPT
-
-## Features
-
-* Modern UI Design with Animations
-* One Page Layout
-
-
-
+LinkedIn Post : https://bit.ly/3OmmZCm
