@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Didact Gothic' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <title>Temperature Converter</title>
+
+</head>
+
+<body>
+    <div class="first">
+        <h1 style="font-weight:bolder; font-size:45px;">Fast Temperature Conversion</h1>
+    </div>
+    <div class="container">
+        <div class="card">
+            <img style="margin-left: 5px; margin-right: 90px;" height="210px" width="138px" src="./thermo.png"
+                alt="Thermometer">
+            <form id="tempC" onsubmit="calculateTemp(); return false ">
+
+                <label style="margin-top: 10px; font-weight: bold;" for="temp">
+                    <center>Calculator</center>
+                </label>
+                <br>
+                <input type="number" name="temp" id="temp">
+
+                <select name="temp_diff" id="temp_diff">
+                    <option value="cel">Celsius °C</option>
+                    <option value="fah">Fahrenheit °F</option>
+
+                </select>
+                <br>
+                <input
+                    style=" height: 46px; width: 79px; border-radius: 5px;
+        box-shadow: 1px 2px 3px 4px rgba(12,12,12,0.2); margin-top: 10px; font-weight: bold; margin-left: 165px; background-color: black;  color: azure;"
+                    type="submit" name="temp">
+                <br>
+                <span style="font-weight: bolder; font-size: larger;" id="resultContainer"></span>
+            </form>
+        </div>
+    </div>
+
+
+
+    <script src="script.js"> </script>
+</body>
+
+</html>
